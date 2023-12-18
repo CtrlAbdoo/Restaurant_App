@@ -57,13 +57,11 @@ namespace DataBase
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //Login l = new Login();
-            //ForgetPassword f = new ForgetPassword();
-            //this.Hide();
-            //f.Show();
-            order o = new order();
-            o.Show();
+            Login l = new Login();
+            ForgetPassword f = new ForgetPassword();
             this.Hide();
+            f.Show();
+            
         }
     }
 }
