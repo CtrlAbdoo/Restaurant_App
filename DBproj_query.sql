@@ -91,5 +91,4 @@ select * from orders;
 select * from orders_content;
 
 
-select * from employees
-inner join 
+
